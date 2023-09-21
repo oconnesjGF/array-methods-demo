@@ -17,6 +17,9 @@ var arr2 = set1.filter(function (element) {
   return element < 8;
 });
 
+console.log('arr1 values are: ' + arr1);
+console.log('arr2 values are: ' + arr2);
+
 //both methods return [5, 7]
 
 // ------------------------------------ Array.map() DEMO ----------------------------------------------
@@ -35,4 +38,6 @@ var arr4 = set2.map(function (element) {
   return doubled;
 });
 
+console.log('arr3 values are: ' + arr3);
+console.log('arr4 values are: ' + arr4);
 //both return [18, 26, 30, 34,36]
