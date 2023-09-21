@@ -28,7 +28,7 @@ console.log('arr2 values are: ' + arr2);
 
 var arr3 = [];
 
-//Using a for loop to push array values that are less then 8 into a new array.
+//Using a for loop to multiply their values by 2 and push into an array.
 for (var x = 0; x < set2.length; x++) {
   arr3.push(set2[x] * 2);
 }
